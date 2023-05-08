@@ -40,6 +40,7 @@
 		<slot />
 	</main>
 {/key}
+<img class="map_bg" src="/eriador.jpg" alt="">
 
 <Footer />
 
@@ -72,5 +73,12 @@
 
 	a[aria-current='true'] {
 		color: #ff3e00;
+	}
+	.map_bg {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		height: 100svh;
 	}
 </style>

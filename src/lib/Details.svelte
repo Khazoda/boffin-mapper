@@ -74,4 +74,5 @@
 			justify-content: start;
 		}
 	}
+	
 </style>
